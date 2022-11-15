@@ -56,14 +56,5 @@
                                 &kp RIGHT_ALT    &trans  &kp SPACE    &kp RET     &trans         &kp RCMD
             >;
         };
-
-        Layer__3 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
     };
 };
