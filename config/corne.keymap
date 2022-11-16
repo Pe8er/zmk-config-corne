@@ -18,6 +18,10 @@
             ╰────────────╯ ╰────────────╯
 */
 
+#define QWERTY 0
+#define NUMBERS_MEDIA 1
+#define SYMBOLS 2
+#define CONTROLS 3
 
 / {
 
@@ -29,7 +33,7 @@
       label = "HOLD_ESC_TAP_TAB";
       flavor = "tap-preferred";
       tapping-term-ms = <100>; // <---[[produces tap if held longer than tapping-term-ms]]
-      quick-tap-ms = <200>;    // If you press a tapped hold-tap again within quick-tap-ms milliseconds, it will always trigger the tap behavior. This is useful for things like a backspace, where a quick tap+hold holds backspace pressed. Set this to a negative value to disable. The default is -1 (disabled).
+      quick-tap-ms = <200>; // https://zmk.dev/docs/behaviors/hold-tap
       bindings = <&kp>, <&kp>;
     };
   };
@@ -43,7 +47,7 @@
       key-positions = <0 1>;
       bindings = <&kp ESC>;
     };
-  }
+  };
 
     keymap
     {
