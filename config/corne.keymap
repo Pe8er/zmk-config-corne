@@ -19,7 +19,7 @@
 */
 
 #define QWERTY 0
-#define NUMBERS_MEDIA 1
+#define NUM_MEDIA 1
 #define SYMBOLS 2
 #define CONTROLS 3
 
