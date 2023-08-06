@@ -65,7 +65,7 @@
             >;
       };
 
-      NUMBERS_MEDIA
+      NUM_MEDIA
       {
 
         bindings = <
