@@ -9,9 +9,17 @@ include:
     artifact-name: corne_right
   - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view settings_reset
-    snippet: studio-rpc-usb-uart zmk-usb-logging
-    artifact-name: corne_left_debug
+    snippet: studio-rpc-usb-uart
+    artifact-name: reset_corne_left
   - board: nice_nano_v2
     shield: corne_right nice_view_adapter nice_view settings_reset
+    snippet: studio-rpc-usb-uart
+    artifact-name: reset_corne_right
+  - board: nice_nano_v2
+    shield: corne_left nice_view_adapter nice_view
     snippet: studio-rpc-usb-uart zmk-usb-logging
-    artifact-name: corne_right_debug
+    artifact-name: usblogging_corne_left
+  - board: nice_nano_v2
+    shield: corne_right nice_view_adapter nice_view
+    snippet: studio-rpc-usb-uart zmk-usb-logging
+    artifact-name: usblogging_corne_right
